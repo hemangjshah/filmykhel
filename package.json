@@ -1,0 +1,11 @@
+{
+  "name": "filmykhel",
+  "version": "1.0.0",
+  "description": "Bollywood movie guessing game",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
