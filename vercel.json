@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/api/song",   "dest": "/api/song.js"   },
+    { "src": "/api/verify", "dest": "/api/verify.js" },
+    { "src": "/api/hint",   "dest": "/api/hint.js"   },
+    { "src": "/(.*)",       "dest": "/public/$1"     }
+  ]
+}
